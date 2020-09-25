@@ -13,8 +13,8 @@ public class DALChallenge {
 
     public DALChallenge() {
         try {
-           Class.forName("com.microsoft.sqlserver.jdbc.SQLServerDriver");
-            con = DriverManager.getConnection("jdbc:sqlserver://DESKTOP-GOFF4ES\\Chetan:49821;Database=projectDB;userName=sa;password=1100");
+           Class.forName(jdbc:oracle:thin:@localhost:1521:xe");
+            con = DriverManager.getConnection("oracle.jdbc.OracleDriver\Chetan:49821;Database=projectDB;userName=sa;password=1100");
         } catch (Exception e) {
             System.out.println(e);
         }
